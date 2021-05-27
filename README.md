@@ -1,5 +1,5 @@
-# Dolar History
-Dolar History es un scrpit desarrollado en Python para obtener cotizaciones históricas del Dolar en Argentina. 
+# BCRA Historico
+BCRA Historico es un scrpit desarrollado en Python para datos historicos de las variables del Banco Central de la Republica Argentina. 
 
 La información es traida desde las bases de datosde Ambito Financiero, no me responsabilizo por la fiabilidad de los datos.
 
