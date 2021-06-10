@@ -48,8 +48,8 @@ import pandas as pd
 tipo="ee"
 tipo = input('Ingrese opción: ')
 url="0"
-desde = input('Ingrese Fecha de inicio(en formato AÃ±o-Mes-DÃ­a, Ejemplo,23-05-2021): ')
-hasta = input('Ingrese Fecha de fin(en formato AÃ±o-Mes-DÃ­a, Ejemplo,23-05-2021): ')
+desde = input('Ingrese Fecha de inicio(en formato Año-Mes-Di­a, Ejemplo,2021-05-23): ')
+hasta = input('Ingrese Fecha de fin(en formato Año-Mes-Dia, Ejemplo,2021-05-23): ')
 
 url_base= "http://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables_datos.asp?fecha_desde="+desde+"&fecha_hasta="+hasta
 if tipo=="0":
