@@ -29,7 +29,7 @@ La información es traida desde las bases de datosde Ambito Financiero, no me re
 
 11 - M2 privado, promedio móvil de 30 días, variación interanual (en )
 
-12 - Inflación mensual (variación en )
+12 - Inflación mensual (variación en %)
 
 13 - CER (Base 2.2.2002=1)
 
