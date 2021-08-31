@@ -124,6 +124,13 @@ list=["11","12"]
 if (tipo in list):
     data["Valor"]=data["Valor"]/10
 
-data['Fecha']=pd.to_datetime(data['Fecha'])
+for i in range(len(data)):
+    var = data.iloc[i]['Fecha']
+    var= var.split("/")
+    day=int(var[0])
+    month=int(var[1])
+    year=int(var[2])
+    data.loc[i]['Fecha'] =datetime.date(year, month, day)
+
 data = data.set_index("Fecha")
 print(data)
